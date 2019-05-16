@@ -24,3 +24,5 @@ A<-ggplot(mydata,aes(x=Rank,y=ratio,fill=group))+
   geom_text(aes(x=Rank,y=label_y,label=RT),
             position='identity', color='black')
 A
+
+print("Hello world")
